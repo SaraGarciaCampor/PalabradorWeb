@@ -19,7 +19,7 @@ function Contact() {
                     <div className="contact-style-one-info">
                         <h2>Contact Information</h2>
                         <p>
-                            Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing.
+                            Contact me and request a non-binding quote.
                         </p>
                         <ul>
                             <li className="wow fadeInUp">
@@ -28,7 +28,7 @@ function Contact() {
                                 </div>
                                 <div className="content">
                                     <h5 className="title">Hotline</h5>
-                                    <a href="#">+4733378901</a>
+                                    <a href="#">+34686110682</a>
                                 </div>
                             </li>
                             <li className="wow fadeInUp" data-wow-delay="300ms">
@@ -36,9 +36,9 @@ function Contact() {
                                     <FontAwesomeIcon icon={faMapMarkerAlt} fixedWidth/>
                                 </div>
                                 <div className="info">
-                                    <h5 className="title">Our Location</h5>
+                                    <h5 className="title">Location</h5>
                                     <p>
-                                        55 Main Street, The Grand Avenue 2nd Block, <br /> New York City
+                                        C/ Valencia, 38, 2o, i <br /> Salou, Tarragona (43840)
                                     </p>
                                 </div>
                             </li>
@@ -48,7 +48,7 @@ function Contact() {
                                 </div>
                                 <div className="info">
                                     <h5 className="title">Official Email</h5>
-                                    <a href="mailto:info@agrul.com.com">info@agrul.com</a>
+                                    <a href="mailto:info@agrul.com.com">age@tinet.org</a>
                                 </div>
                             </li>
                         </ul>
@@ -58,7 +58,7 @@ function Contact() {
                 <div className="contact-stye-one col-lg-7 pl-60 pl-md-15 pl-xs-15">
                     <div className="contact-form-style-one">
                         <h5 className="sub-heading secondary">Have Questions?</h5>
-                        <h2 className="heading">Send us a Massage</h2>
+                        <h2 className="heading">Send a Message</h2>
                         <form action="https://validthemes.net/site-template/consua/assets/mail/contact.php" method="POST" className="contact-form contact-form">
                             <div className="row">
                                 <div className="col-lg-12">
