@@ -1,3 +1,5 @@
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 function Banner() {
@@ -19,10 +21,9 @@ function Banner() {
                                     and advertising documents.
                                 </h3>
                                 <div className="button mt-30 wow fadeInUp"  data-wow-delay="1200ms" data-wow-duration="400ms">
-                                    <a className="btn-animation" href="#"><i className="fas fa-arrow-right"></i>
-                                    <span>
+                                    <p>
                                         Technical Translator - Sworn Translator - Interpreter
-                                    </span></a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
