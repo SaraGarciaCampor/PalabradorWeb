@@ -10,6 +10,8 @@ import '../public/assets/css/validnavs.css'
 import '../public/assets/css/helper.css'
 import '../public/assets/css/unit-test.css'
 import '../public/assets/css/style.css'
+import Preloader from './components/common/preloader'
+import Header from './components/common/header'
 
 export const metadata = {
   title: 'Traductor e Intérprete Jurado',
@@ -22,7 +24,30 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <script src="../assets/js/jquery-3.6.0.min.js" defer />
+        <script src="../assets/js/bootstrap.bundle.min.js" defer />
+        <script src="../assets/js/jquery.appear.js" defer />
+        <script src="../assets/js/jquery.easing.min.js" defer />
+        <script src="../assets/js/jquery.magnific-popup.min.js" defer />
+        <script src="../assets/js/modernizr.custom.13711.js" defer />
+        <script src="../assets/js/swiper-bundle.min.js" defer />
+        <script src="../assets/js/wow.min.js" defer />
+        <script src="../assets/js/progress-bar.min.js" defer />
+        <script src="../assets/js/circle-progress.js" defer />
+        <script src="../assets/js/isotope.pkgd.min.js" defer />
+        <script src="../assets/js/imagesloaded.pkgd.min.js" defer />
+        <script src="../assets/js/jquery.nice-select.min.js" defer />
+        <script src="../assets/js/count-to.js" defer />
+        <script src="../assets/js/jquery.scrolla.min.js" defer />
+        <script src="../assets/js/YTPlayer.min.js" defer />
+        <script src="../assets/js/TweenMax.min.js" defer />
+        <script src="../assets/js/rangeSlider.min.js" defer />
+        <script src="../assets/js/jquery-ui.min.js" defer />
+        <script src="../assets/js/validnavs.js" defer />
+        <script src="../assets/js/main.js" defer />
+      </body>
     </html>
   )
 }
