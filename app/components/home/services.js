@@ -9,7 +9,9 @@ function Services() {
                 <div className="col-lg-8 offset-lg-2">
                     <div className="site-heading text-center secondary">
                         <h4 className="sub-heading">Services</h4>
-                        <h2 className="title">Feel the power of technology <br /> by using our Software</h2>
+                        <h2 className="title">
+                            Fast service. <br /> Quality. <br /> Reliability. <br /> Professionalism.
+                        </h2>
                     </div>
                 </div>
             </div>
