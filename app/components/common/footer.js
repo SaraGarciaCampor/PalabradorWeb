@@ -2,44 +2,44 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer class="bg-dark text-light">
-        <div class="footer-shape">
-            <div class="item bottom">
+    <footer className="bg-dark text-light">
+        <div className="footer-shape">
+            <div className="item bottom">
                 <img src="assets/img/shape/38.png" alt="Shape"/>
             </div>
-            <div class="item">
+            <div className="item">
                 <img src="assets/img/shape/9.png" alt="Shape"/>
             </div>
         </div>
-        <div class="container">
-            <div class="f-items relative pt-70 pb-120 pt-xs-0 pb-xs-50">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 footer-item pr-50 pr-xs-15">
-                        <div class="f-item about">
-                            <img class="logo" src="assets/img/logo-light-solid.png" alt="Logo"/>
+        <div className="container">
+            <div className="f-items relative pt-70 pb-120 pt-xs-0 pb-xs-50">
+                <div className="row">
+                    <div className="col-lg-4 col-md-6 footer-item pr-50 pr-xs-15">
+                        <div className="f-item about">
+                            <img className="logo" src="assets/img/logo-light-solid.png" alt="Logo"/>
                             <p>
                                 Excellence decisively nay man twins impression maximum contrasted remarkably is perfect.
                             </p>
-                            <div class="opening-hours">
+                            <div className="opening-hours">
                                 <h5>Opening Hours</h5>
                                 <ul>
                                     <li> 
-                                        <div class="working-day">Monday – Sunday:</div>
-                                        <div class="marker"></div>
-                                        <div class="working-hour">2pm – 2pm</div>
+                                        <div className="working-day">Monday – Sunday:</div>
+                                        <div className="marker"></div>
+                                        <div className="working-hour">2pm – 2pm</div>
                                     </li>
                                     <li>
-                                        <div class="working-day">Sunday:</div>
-                                        <div class="marker"></div>
-                                        <div class="working-hour">Off Day</div>
+                                        <div className="working-day">Sunday:</div>
+                                        <div className="marker"></div>
+                                        <div className="working-hour">Off Day</div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 footer-item">
-                        <div class="f-item link">
-                            <h4 class="widget-title">Our Company</h4>
+                    <div className="col-lg-2 col-md-6 footer-item">
+                        <div className="f-item link">
+                            <h4 className="widget-title">Our Company</h4>
                             <ul>
                                 <li>
                                     <a href="about-us.html">Compnay Profile</a>
@@ -59,9 +59,9 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 footer-item">
-                        <div class="f-item link">
-                            <h4 class="widget-title">Our Services</h4>
+                    <div className="col-lg-2 col-md-6 footer-item">
+                        <div className="f-item link">
+                            <h4 className="widget-title">Our Services</h4>
                             <ul>
                                 <li>
                                     <a href="services-details.html">Manage investment</a>
@@ -81,36 +81,36 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 footer-item">
-                        <h4 class="widget-title">Newsletter</h4>
+                    <div className="col-lg-4 col-md-6 footer-item">
+                        <h4 className="widget-title">Newsletter</h4>
                         <p>
                             Join our subscribers list to get the latest <br/> news and special offers.
                         </p>
-                        <div class="f-item newsletter secondary">
+                        <div className="f-item newsletter secondary">
                             <form action="#">
-                                <input type="email" placeholder="Your Email" class="form-control" name="email"/>
+                                <input type="email" placeholder="Your Email" className="form-control" name="email"/>
                                 <button type="submit"> Subscribe</button>  
                             </form>
                         </div>
-                        <ul class="footer-social">
+                        <ul className="footer-social">
                             <li>
                                 <a href="#">
-                                    <i class="fab fa-facebook-f"></i>
+                                    <i className="fab fa-facebook-f"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="fab fa-twitter"></i>
+                                    <i className="fab fa-twitter"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="fab fa-youtube"></i>
+                                    <i className="fab fa-youtube"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
+                                    <i className="fab fa-linkedin-in"></i>
                                 </a>
                             </li>
                         </ul>
@@ -118,13 +118,13 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
+        <div className="footer-bottom">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-6">
                         <p>&copy; Copyright 2023. All Rights Reserved by <a href="#">validthemes</a></p>
                     </div>
-                    <div class="col-lg-6 text-end">
+                    <div className="col-lg-6 text-end">
                         <ul>
                             <li>
                                 <a href="about-us.html">Terms</a>
