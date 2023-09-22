@@ -8,8 +8,8 @@ function Portfolio() {
             <div className="row">
                 <div className="col-lg-8 offset-lg-2">
                     <div className="site-heading text-center secondary">
-                        <h4 className="sub-heading">Software Overview</h4>
-                        <h2 className="title">Quick Software Overview</h2>
+                        <h4 className="sub-heading">Experience</h4>
+                        <h2 className="title"> Overview on different sectors experience </h2>
                     </div>
                 </div>
             </div>
@@ -22,15 +22,15 @@ function Portfolio() {
 
                     <div className="nav nav-tabs software-tab-navs" id="nav-tab" role="tablist">
                         <button className="nav-link" id="nav-id-1" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">
-                            Collaboration
+                            Technical
                             <span>01</span>
                         </button>
                         <button className="nav-link active" id="nav-id-2" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">
-                            Design & Technology
+                            Research Collaborator
                             <span>02</span>
                         </button>
                         <button className="nav-link" id="nav-id-3" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">
-                            Generate Customize
+                            Literature
                             <span>03</span>
                         </button>
                     </div>
@@ -44,11 +44,13 @@ function Portfolio() {
                             <div className="soft-overview">
                                 <img src="assets/img/dashboard/4.jpg" alt="Image not found"/>
                                 <div className="overlay">
-                                    <h3>Collaboration with customers</h3>
+                                    <h3>Technical translation</h3>
                                     <p>
-                                        Bndulgence diminution so discovered apartments. Are off under folly percenta wrote cause her way spite. Plan upon.
+                                        I have extensive experience in website localisation and the translation of technical
+                                        manuals, patents, advertising material, business correspondence, press releases,
+                                        contracts, articles of association, diplomas, certificates, academic records and legal
+                                        documents of all kinds.
                                     </p>
-                                    <a href="#"><i className="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -56,23 +58,35 @@ function Portfolio() {
                             <div className="soft-overview">
                                 <img src="assets/img/dashboard/5.jpg" alt="Image not found"/>
                                 <div className="overlay">
-                                    <h3>Software Design & Technology Prepare</h3>
+                                    <h3>Academic translation</h3>
                                     <p>
-                                        Bndulgence diminution so discovered apartments. Are off under folly percenta wrote cause her way spite. Plan upon.
+                                        For many years I have worked regularly as a scientific translator with research groups
+                                        at the Universitat Rovira i Virgili.
                                     </p>
-                                    <a href="#"><i className="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div className="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="nav-id-3">
-                            <div className="soft-overview">
-                                <img src="assets/img/dashboard/6.jpg" alt="Image not found"/>
+                                <div className="soft-overview">
+                                <div className="soft-over">
+                                    <div class="image-container">
+                                        <img src="assets/img/books/estadistica.jpg" alt="Image not found"/>
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="assets/img/books/psicologia-positiva.jpg" alt="Image not found"/>
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="assets/img/books/biologia.jpg" alt="Image not found"/>
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="assets/img/books/hombres_negro.jpg" alt="Image not found"/>
+                                    </div>
+                                </div>
                                 <div className="overlay">
-                                    <h3>Final Customization for the product launch</h3>
-                                    <p>
-                                        Bndulgence diminution so discovered apartments. Are off under folly percenta wrote cause her way spite. Plan upon.
-                                    </p>
-                                    <a href="#"><i className="fas fa-arrow-right"></i></a>
+                                <h3>Literary translation</h3>
+                                        <p>
+                                            Although literary translation is not my main activity, I have also translated several books.
+                                        </p>
                                 </div>
                             </div>
                         </div>
