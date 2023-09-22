@@ -1,3 +1,5 @@
+import { faStar } from '@fortawesome/free-regular-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 function Testimonials() {
@@ -26,11 +28,11 @@ function Testimonials() {
                                     <div className="item">
                                         <div className="content">
                                             <div className="rating">
-                                                <i className="fas fa-star"></i>
-                                                <i className="fas fa-star"></i>
-                                                <i className="fas fa-star"></i>
-                                                <i className="fas fa-star"></i>
-                                                <i className="fas fa-star"></i>
+                                                <FontAwesomeIcon icon={faStar} fixedWidth/>
+                                                <FontAwesomeIcon icon={faStar} fixedWidth/>
+                                                <FontAwesomeIcon icon={faStar} fixedWidth/>
+                                                <FontAwesomeIcon icon={faStar} fixedWidth/>
+                                                <FontAwesomeIcon icon={faStar} fixedWidth/>
                                             </div>
                                             <h2>The best service ever</h2>
                                             <p>
@@ -52,11 +54,11 @@ function Testimonials() {
                                     <div className="item">
                                         <div className="content">
                                             <div className="rating">
-                                                <i className="fas fa-star"></i>
-                                                <i className="fas fa-star"></i>
-                                                <i className="fas fa-star"></i>
-                                                <i className="fas fa-star"></i>
-                                                <i className="fas fa-star"></i>
+                                                <FontAwesomeIcon icon={faStar} fixedWidth/>
+                                                <FontAwesomeIcon icon={faStar} fixedWidth/>
+                                                <FontAwesomeIcon icon={faStar} fixedWidth/>
+                                                <FontAwesomeIcon icon={faStar} fixedWidth/>
+                                                <FontAwesomeIcon icon={faStar} fixedWidth/>
                                             </div>
                                             <h2>Awesome Business opportunities</h2>
                                             <p>
