@@ -320,44 +320,6 @@
 		});
 
 
-		/* ==================================================
-            # Testimonials Carousel
-         ===============================================*/
-		const testimonialCarousel = new Swiper(".testimonial-carousel", {
-			// Optional parameters
-			direction: "horizontal",
-			loop: true,
-			autoplay: true,
-
-			// And if we need scrollbar
-			/*scrollbar: {
-            el: '.swiper-scrollbar',
-          },*/
-		});
-
-
-		/* ==================================================
-            # Testimonail Style Two Carousel
-         ===============================================*/
-		const testimonialTwo = new Swiper(".testimonial-style-two-carousel", {
-			// Optional parameters
-			loop: true,
-			freeMode: true,
-			grabCursor: true,
-			slidesPerView: 1,
-			centeredSlides: true,
-			spaceBetween: 50,
-			autoplay: true,
-			pagination: {
-				el: ".swiper-pagination",
-				clickable: true,
-			},
-			breakpoints: {
-				1200: {
-					slidesPerView: 2.5,
-				},
-			},
-		});
 
 		/* ==================================================
             # Clients Carousel
@@ -388,38 +350,6 @@
 				}
 			},
 		});
-
-
-		/* ==================================================
-            # Team Carousel
-         ===============================================*/
-		const teamCarousel = new Swiper(".team-carousel", {
-			// Optional parameters
-			loop: true,
-			slidesPerView: 1,
-			spaceBetween: 15,
-			autoplay: true,
-			pagination: {
-				el: ".swiper-pagination",
-				clickable: true,
-			},
-			// Navigation arrows
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev"
-			},
-			breakpoints: {
-				768: {
-					slidesPerView: 2,
-					spaceBetween: 30,
-				},
-				992: {
-					slidesPerView: 3,
-					spaceBetween: 30,
-				}
-			},
-		});
-
 
 		/* ==================================================
             # Services Carousel
