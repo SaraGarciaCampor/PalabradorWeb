@@ -5,7 +5,7 @@ function About() {
     <div className="about-style-six-area default-padding" id="about">
         <div className="container">
             <div className="row align-center">
-                <div className="col-lg-6">
+                <div className="col-lg-4">
                     <div className="about-style-six-thumb">
                         <img src="assets/img/dashboard/3.jpg" alt="Image not Found" />
                         <img src="assets/img/illustration/12.png" alt="Image not Found" />
@@ -14,7 +14,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-5 offset-lg-1">
+                <div className="col-lg-7 offset-lg-1">
                     <div className="about-style-six-info">
                         <h4 className="sub-heading secondary">About me</h4>
                         <h2 className="title">Career and education</h2>

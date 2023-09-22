@@ -10,7 +10,8 @@ function Services() {
                     <div className="site-heading text-center secondary">
                         <h4 className="sub-heading">Services</h4>
                         <h2 className="title">
-                            Fast service. <br /> Quality. <br /> Reliability. <br /> Professionalism.
+                            Professional translator with a degree in Translation and Interpreting. <br />
+                            Appointed as a sworn translator and interpreter.
                         </h2>
                     </div>
                 </div>
@@ -37,7 +38,7 @@ function Services() {
                             <div className="thumb">
                                 <img src="assets/img/icon/13.png" alt="Image Not Found"/>
                             </div>
-                            <h4>Specialization</h4>
+                            <h3>Specialization</h3>
                             <p>
                                 I specialise in the following fields: industrial instruments and machinery, environmental
                                 health and safety, building and architecture, electronics, mechanics, chemistry,
@@ -48,7 +49,7 @@ function Services() {
                             <div className="thumb">
                                 <img src="assets/img/icon/14.png" alt="Image Not Found"/>
                             </div>
-                            <h4>Accreditations & Tools</h4>
+                            <h3>Accreditations & Tools</h3>
                             <p>
                                 I am also a sworn translator and interpreter for English, appointed by the Spanish
                                 Ministry of Foreign Affairs. I regularly translate contracts, articles of association, deeds,
