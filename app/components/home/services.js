@@ -8,7 +8,7 @@ function Services() {
             <div className="row">
                 <div className="col-lg-8 offset-lg-2">
                     <div className="site-heading text-center secondary">
-                        <h4 className="sub-heading">Premium features</h4>
+                        <h4 className="sub-heading">Services</h4>
                         <h2 className="title">Feel the power of technology <br /> by using our Software</h2>
                     </div>
                 </div>
@@ -24,27 +24,38 @@ function Services() {
                             <div className="thumb">
                                 <img src="assets/img/icon/12.png" alt="Image Not Found"/>
                             </div>
-                            <h3>Ticket Manage</h3>
+                            <h3>General</h3>
                             <p>
-                                Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather.
+                                I offer translation services from English and German into Spanish or Catalan.
+                                I translate all types of technical, scientific, legal, journalistic and advertising documents,
+                                in any format.
                             </p>
                         </div>
                         <div className="feature-style-five">
                             <div className="thumb">
                                 <img src="assets/img/icon/13.png" alt="Image Not Found"/>
                             </div>
-                            <h4>Live Messaging</h4>
+                            <h4>Specialization</h4>
                             <p>
-                                Remarkably on estimating. Side in so life past. Continue indulged speaking the was.
+                                I specialise in the following fields: industrial instruments and machinery, environmental
+                                health and safety, building and architecture, electronics, mechanics, chemistry,
+                                patents, pharmaceuticals, medicine, natural sciences, energy, music and sport.
                             </p>
                         </div>
                         <div className="feature-style-five">
                             <div className="thumb">
                                 <img src="assets/img/icon/14.png" alt="Image Not Found"/>
                             </div>
-                            <h4>Email Workflow</h4>
+                            <h4>Accreditations & Tools</h4>
                             <p>
-                                Remarkably on estimating. Side in so life past. Continue indulged speaking the was.
+                                I am also a sworn translator and interpreter for English, appointed by the Spanish
+                                Ministry of Foreign Affairs. I regularly translate contracts, articles of association, deeds,
+                                wills, certificates, diplomas, academic transcripts and other business and legal
+                                documents.
+                            </p>
+                            <p>
+                                I use professional translation tools (Trados Studio, memoQ) to create glossaries and
+                                translation memories to help maintain terminological consistency.
                             </p>
                         </div>
                     </div>

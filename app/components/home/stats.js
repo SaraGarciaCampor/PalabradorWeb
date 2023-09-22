@@ -12,7 +12,7 @@ function Stats() {
                                 <div className="timer" data-to="56" data-speed="2000">56</div>
                                 <div className="operator">K</div>
                             </div>
-                            <span className="medium">Unfeeling are had allowance own perceived.</span>
+                            <span className="medium">Clients satisfied.</span>
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-4 item">
@@ -21,16 +21,16 @@ function Stats() {
                                 <div className="timer" data-to="98" data-speed="2000">98</div>
                                 <div className="operator">%</div>
                             </div>
-                            <span className="medium">Testing are had allowance own perceived.</span>
+                            <span className="medium">Añadir un dato cuantificable.</span>
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-4 item">
                         <div className="fun-fact">
                             <div className="counter">
-                                <div className="timer" data-to="25" data-speed="2000">25</div>
+                                <div className="timer" data-to="25" data-speed="2000">30</div>
                                 <div className="operator">+</div>
                             </div>
-                            <span className="medium">Unfotunate are had allowance own perceived.</span>
+                            <span className="medium">Years of experience.</span>
                         </div>
                     </div>
                 </div>

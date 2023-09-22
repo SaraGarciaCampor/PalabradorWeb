@@ -9554,7 +9554,7 @@ footer::after {
 
 .feature-style-five-grid {
 	display: grid;
-	grid-template-columns: 1.8fr 1fr 1fr;
+	grid-template-columns: 1fr 1.2fr 1.8fr;
 	grid-column-gap: 30px;
 	grid-row-gap: 30px;
 }
