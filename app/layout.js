@@ -10,8 +10,7 @@ import '../public/assets/css/validnavs.css'
 import '../public/assets/css/helper.css'
 import '../public/assets/css/unit-test.css'
 import '../public/assets/css/style.css'
-import Preloader from './components/common/preloader'
-import Header from './components/common/header'
+import Head from 'next/head'
 
 export const metadata = {
   title: 'Traductor e Intérprete Jurado',
@@ -21,11 +20,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
-      </head>
+      </Head>
       <body>
-        {children}
+      {children}
         <script src="../assets/js/jquery-3.6.0.min.js" defer />
         <script src="../assets/js/bootstrap.bundle.min.js" defer />
         <script src="../assets/js/jquery.appear.js" defer />
