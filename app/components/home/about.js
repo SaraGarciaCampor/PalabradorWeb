@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="about-style-six-area default-padding">
+    <div className="about-style-six-area default-padding" id="about">
         <div className="container">
             <div className="row align-center">
                 <div className="col-lg-6">

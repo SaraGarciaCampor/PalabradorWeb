@@ -13,9 +13,9 @@ export default function Home() {
     <div >
       <Header />
       <Banner />
+      <About />
       <Services />
       <Stats />
-      <About />
       <Portfolio />
       <Testimonials />
       <Contact />

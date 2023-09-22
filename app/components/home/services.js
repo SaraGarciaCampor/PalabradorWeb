@@ -2,7 +2,7 @@ import React from 'react'
 
 function Services() {
   return (
-    <div className="feature-style-five-area default-padding-top">
+    <div className="feature-style-five-area default-padding-top" id="services">
 
         <div className="container">
             <div className="row">
