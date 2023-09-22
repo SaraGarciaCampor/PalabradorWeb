@@ -20,8 +20,8 @@ function not_found() {
             </div>
         </div>
         <div class="error-page-area default-padding text-center bg-cover">
-        <div class="shape-left" style="background: url(assets/img/shape/44-left.png);"></div>
-        <div class="shape-right" style="background: url(assets/img/shape/44-right.png);"></div>
+        <div class="shape-left" style={{background: "url(assets/img/shape/44-left.png)"}}></div>
+        <div class="shape-right" style={{background: "url(assets/img/shape/44-right.png"}}></div>
         <div class="container">
             <div class="error-box">
                 <div class="row">
