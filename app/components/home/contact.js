@@ -1,3 +1,6 @@
+import { faPaperPlane } from '@fortawesome/free-regular-svg-icons'
+import { faEnvelopeOpenText, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 function Contact() {
@@ -21,7 +24,7 @@ function Contact() {
                         <ul>
                             <li className="wow fadeInUp">
                                 <div className="icon">
-                                    <i className="fas fa-phone-alt"></i>
+                                    <FontAwesomeIcon icon={faPhoneAlt} fixedWidth/>
                                 </div>
                                 <div className="content">
                                     <h5 className="title">Hotline</h5>
@@ -30,7 +33,7 @@ function Contact() {
                             </li>
                             <li className="wow fadeInUp" data-wow-delay="300ms">
                                 <div className="icon">
-                                    <i className="fas fa-map-marker-alt"></i>
+                                    <FontAwesomeIcon icon={faMapMarkerAlt} fixedWidth/>
                                 </div>
                                 <div className="info">
                                     <h5 className="title">Our Location</h5>
@@ -41,7 +44,7 @@ function Contact() {
                             </li>
                             <li className="wow fadeInUp" data-wow-delay="500ms">
                                 <div className="icon">
-                                    <i className="fas fa-envelope-open-text"></i>
+                                    <FontAwesomeIcon icon={faEnvelopeOpenText} fixedWidth/>
                                 </div>
                                 <div className="info">
                                     <h5 className="title">Official Email</h5>
@@ -89,7 +92,7 @@ function Contact() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <button type="submit" name="submit" id="submit">
-                                        <i className="fa fa-paper-plane"></i> Get in Touch
+                                        <FontAwesomeIcon icon={faPaperPlane} fixedWidth/> Get in Touch
                                     </button>
                                 </div>
                             </div>
