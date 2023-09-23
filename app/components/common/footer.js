@@ -1,8 +1,14 @@
-import { faFacebookF, faLinkedinIn, faTwitter, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 function Footer() {
+  function mostrarAnioActual() {
+    const fecha = new Date(); // Obtener la fecha actual
+    const anio = fecha.getFullYear(); // Obtener el año actual
+    document.getElementById("anio-actual").textContent = anio; // Mostrar el año en un elemento HTML con el id "anio-actual"
+  }
+    
   return (
     <footer className="bg-dark text-light">
         <div className="footer-shape">
@@ -16,88 +22,43 @@ function Footer() {
         <div className="container">
             <div className="f-items relative pt-70 pb-120 pt-xs-0 pb-xs-50">
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 footer-item pr-50 pr-xs-15">
+                    <div className="col-lg-8 col-md-6 footer-item pr-50 pr-xs-15">
                         <div className="f-item about">
                             <img className="logo" src="assets/img/logo-light-solid.png" alt="Logo"/>
                             <p>
-                                Excellence decisively nay man twins impression maximum contrasted remarkably is perfect.
+                                Over 25 years experience in translating technical, scientific, legal, journalistic and advertising documents.
                             </p>
                             <div className="opening-hours">
                                 <h5>Opening Hours</h5>
                                 <ul>
                                     <li> 
-                                        <div className="working-day">Monday – Sunday:</div>
+                                        <div className="working-day">Monday – Friday:</div>
                                         <div className="marker"></div>
-                                        <div className="working-hour">2pm – 2pm</div>
+                                        <div className="working-hour">2 pm – 8 pm</div>
                                     </li>
                                     <li>
-                                        <div className="working-day">Sunday:</div>
+                                        <div className="working-day">Saturday - Sunday:</div>
                                         <div className="marker"></div>
-                                        <div className="working-hour">Off Day</div>
+                                        <div className="working-hour">Off Days</div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-2 col-md-6 footer-item">
-                        <div className="f-item link">
-                            <h4 className="widget-title">Our Company</h4>
-                            <ul>
-                                <li>
-                                    <a href="about-us.html">Compnay Profile</a>
-                                </li>
-                                <li>
-                                    <a href="faq.html">Help Center</a>
-                                </li>
-                                <li>
-                                    <a href="about-us.html">Career</a>
-                                </li>
-                                <li>
-                                    <a href="pricing.html">Plans & Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="contact-us.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-lg-2 col-md-6 footer-item">
-                        <div className="f-item link">
-                            <h4 className="widget-title">Our Services</h4>
-                            <ul>
-                                <li>
-                                    <a href="services-details.html">Manage investment</a>
-                                </li>
-                                <li>
-                                    <a href="services-details.html">Business planning</a>
-                                </li>
-                                <li>
-                                    <a href="services-details.html">Financial advices</a>
-                                </li>
-                                <li>
-                                    <a href="services-details.html">Tax strategy</a>
-                                </li>
-                                <li>
-                                    <a href="services-details.html">Insurance strategy</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                     <div className="col-lg-4 col-md-6 footer-item">
                         <h4 className="widget-title">Newsletter</h4>
                         <p>
-                            Join our subscribers list to get the latest <br/> news and special offers.
+                            Social Media
                         </p>
-                        <div className="f-item newsletter secondary">
-                            <form action="#">
-                                <input type="email" placeholder="Your Email" className="form-control" name="email"/>
-                                <button type="submit"> Subscribe</button>  
-                            </form>
-                        </div>
                         <ul className="footer-social">
                             <li>
                                 <a href="#">
                                     <FontAwesomeIcon icon={faFacebookF} fixedWidth/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/algarsword/" target="_blank">
+                                    <FontAwesomeIcon icon={faInstagram} fixedWidth/>
                                 </a>
                             </li>
                             <li>
@@ -114,20 +75,7 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <p>&copy; Copyright 2023. All Rights Reserved by <a href="#">validthemes</a></p>
-                    </div>
-                    <div className="col-lg-6 text-end">
-                        <ul>
-                            <li>
-                                <a href="about-us.html">Terms</a>
-                            </li>
-                            <li>
-                                <a href="about-us.html">Privacy</a>
-                            </li>
-                            <li>
-                                <a href="contact-us.html">Support</a>
-                            </li>
-                        </ul>
+                        <p><span id="anio-actual"></span> Made with love by Sara García Campor</p>
                     </div>
                 </div>
             </div>
