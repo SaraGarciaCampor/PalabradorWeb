@@ -1,13 +1,9 @@
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import Year from './year'
 
 function Footer() {
-  function mostrarAnioActual() {
-    const fecha = new Date(); // Obtener la fecha actual
-    const anio = fecha.getFullYear(); // Obtener el año actual
-    document.getElementById("anio-actual").textContent = anio; // Mostrar el año en un elemento HTML con el id "anio-actual"
-  }
     
   return (
     <footer className="bg-dark text-light">
@@ -75,7 +71,7 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <p><span id="anio-actual"></span> Made with love by Sara García Campor</p>
+                         <Year />
                     </div>
                 </div>
             </div>
