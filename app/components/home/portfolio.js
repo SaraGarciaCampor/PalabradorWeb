@@ -2,7 +2,7 @@ import React from 'react'
 
 function Portfolio() {
   return (
-    <div className="software-overview-area default-padding bg-dark secondary text-light bg-cover" style={{backgroundImage: "url(assets/img/shape/banner-1.png)"}}>
+    <div id="experience" className="software-overview-area default-padding bg-dark secondary text-light bg-cover" style={{backgroundImage: "url(assets/img/shape/banner-1.png)"}}>
 
         <div className="container">
             <div className="row">
