@@ -5,7 +5,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className="contact-style-one-area overflow-hidden secondary default-padding">
+    <div id= "contact" className="contact-style-one-area overflow-hidden secondary default-padding">
 
         <div className="contact-shape">
             <img src="assets/img/shape/37.png" alt="Image Not Found" />
