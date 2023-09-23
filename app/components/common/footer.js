@@ -1,6 +1,9 @@
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from 'next/image'
 import React from 'react'
+import some_image from "../../../public/assets/img/shape/38.png"
+import logo_light from "../../../public/assets/img/logo-light-solid.png"
 import Year from './year'
 
 function Footer() {
@@ -9,10 +12,7 @@ function Footer() {
     <footer className="bg-dark text-light">
         <div className="footer-shape">
             <div className="item bottom">
-                <img src="assets/img/shape/38.png" alt="Shape"/>
-            </div>
-            <div className="item">
-                <img src="assets/img/shape/9.png" alt="Shape"/>
+                <Image src={some_image} alt="Shape"/>
             </div>
         </div>
         <div className="container">
@@ -20,7 +20,7 @@ function Footer() {
                 <div className="row">
                     <div className="col-lg-8 col-md-6 footer-item pr-50 pr-xs-15">
                         <div className="f-item about">
-                            <img className="logo" src="assets/img/logo-light-solid.png" alt="Logo"/>
+                            <Image className="logo" src={logo_light} alt="Logo" width={250}/>
                             <p>
                                 Over 25 years experience in translating technical, scientific, legal, journalistic and advertising documents.
                             </p>

@@ -21,11 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800;900&amp;display=swap" />
       </Head>
       <body>
       {children}
