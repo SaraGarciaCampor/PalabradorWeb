@@ -23,7 +23,7 @@ function Contact() {
                         </p>
                         <ul>
                             <li className="wow fadeInUp">
-                                <div className="icon">
+                                <div className="icon" style={{ marginRight: '12px' }}>
                                     <FontAwesomeIcon icon={faPhoneAlt} fixedWidth/>
                                 </div>
                                 <div className="content">
@@ -32,7 +32,7 @@ function Contact() {
                                 </div>
                             </li>
                             <li className="wow fadeInUp" data-wow-delay="300ms">
-                                <div className="icon">
+                                <div className="icon" style={{ marginRight: '12px' }}>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} fixedWidth/>
                                 </div>
                                 <div className="info">
@@ -43,7 +43,7 @@ function Contact() {
                                 </div>
                             </li>
                             <li className="wow fadeInUp" data-wow-delay="500ms">
-                                <div className="icon">
+                                <div className="icon" style={{ marginRight: '12px' }}>
                                     <FontAwesomeIcon icon={faEnvelopeOpenText} fixedWidth/>
                                 </div>
                                 <div className="info">
